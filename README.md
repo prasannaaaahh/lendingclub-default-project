@@ -47,13 +47,11 @@ The project examines borrower risk factors, compares application-only features w
 | LendingClub grade alone | Grade only | 0.667 |
 | LendingClub interest rate alone | Interest rate only | 0.678 |
 
-![Test ROC-AUC by model and feature set](reports/figures/F1_test_auc_by_model.png)
 
 ### Risk bands
 
 The model separated loans into five risk bands. The observed default rate increased from **4.57% in the lowest-risk band** to **27.98% in the highest-risk band**.
 
-![Default rate by risk decile](reports/figures/F4_lift_by_decile.png)
 
 ### Approval strategy
 
