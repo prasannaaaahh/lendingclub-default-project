@@ -1,0 +1,16 @@
+# data and trained models are not tracked
+data/*
+!data/README.md
+models/
+
+# python / jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# large or private files
+*.parquet
+*.gz
+.DS_Store
